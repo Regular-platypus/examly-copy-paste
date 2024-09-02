@@ -30,6 +30,7 @@ Click on lock icon in the address bar and enable the clipboard API.
 
 ## Fix chrome install error
 paste this as admin in powershell and press enter (enable manafest v2 as chrome enterprise mode )
+
 ```$path = "registry::HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome"; New-Item $path -Force; Set-ItemProperty $path -Name ExtensionManifestV2Availability -Value 2```
 
 
